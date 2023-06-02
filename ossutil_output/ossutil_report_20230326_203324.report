@@ -1,0 +1,4 @@
+# ossutil cp -rf --meta Cache-Control:max-age=31536000 build/static oss://leos-test/static
+[Error] 2023/03/26 20:33:51 upload build\static\css to oss://leos-test/static/css/ error, info: Put "http://leos-test.$ENDPOINT/static%2Fcss%2F": dial tcp: lookup leos-test.$ENDPOINT: no such host, Bucket=leos-test, Object=static/css/
+[Error] 2023/03/26 20:33:51 upload build\static\css\main.073c9b0a.css.map to oss://leos-test/static/css/main.073c9b0a.css.map error, info: Put "http://leos-test.$ENDPOINT/static%2Fcss%2Fmain.073c9b0a.css.map": dial tcp: lookup leos-test.$ENDPOINT: no such host, File=build\static\css\main.073c9b0a.css.map
+[Error] 2023/03/26 20:33:51 upload build\static\css\main.073c9b0a.css to oss://leos-test/static/css/main.073c9b0a.css error, info: Put "http://leos-test.$ENDPOINT/static%2Fcss%2Fmain.073c9b0a.css": dial tcp: lookup leos-test.$ENDPOINT: no such host, File=build\static\css\main.073c9b0a.css
